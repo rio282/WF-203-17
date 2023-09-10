@@ -1,23 +1,25 @@
 <template>
-  <div class="header bg-dark row">
-    <div class="left-brand col">
-      <img class="rounded float-start w-75" src="../assets/test.png" alt="brand 1">
-    </div>
+    <div class="header bg-dark row">
+      <div class="left-brand col">
+        <img class="float-start logo-sized" src="../assets/images/test.png" alt="brand 1">
+      </div>
 
-    <div class="mid-section col">
-      <h1 class="text-primary">Electric Scooter Rental</h1>
-      <h3 class="text-dark-emphasis">
-        By:
-        <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Rio</a>
-        &
-        <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Kingsley</a>
-      </h3>
-    </div>
+      <div class="mid-section col flex-center">
+        <div class="">
+          <h1 class="text-primary">Electric Scooter Rental</h1>
+          <h3 class="text-dark-emphasis">
+            By:
+            <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Rio</a>
+            &
+            <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Kingsley</a>
+          </h3>
+        </div>
+      </div>
 
-    <div class="right-brand col">
-      <img class="rounded float-end w-75" src="../assets/test.png" alt="brand 2">
+      <div class="right-brand col">
+        <img class="float-end logo-sized" src="../assets/images/test.png" alt="brand 2">
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -28,6 +30,7 @@ export default {
 
 <style scoped>
 .header {
+  height: 25vw;
 }
 
 div > * {
@@ -42,19 +45,31 @@ div > * {
   justify-items: center;
 
   h1 {
-    font-size: 60px;
+    font-size: 5vw;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 4vw;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 3vw;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 2vw;
   }
+}
+
+.logo-sized {
+  min-width: 75%;
+  width: 75%;
+  align-self: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
