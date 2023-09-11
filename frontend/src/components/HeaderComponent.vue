@@ -1,25 +1,25 @@
 <template>
-    <div class="header bg-dark row">
-      <div class="left-brand col">
-        <img class="float-start logo-sized" src="../assets/images/test.png" alt="brand 1">
-      </div>
+  <div class="header bg-dark row">
+    <div class="left-brand col">
+      <img class="float-start logo-sized" src="../assets/images/test.png" alt="brand 1">
+    </div>
 
-      <div class="mid-section col flex-center">
-        <div class="">
-          <h1 class="text-primary">Electric Scooter Rental</h1>
-          <h3 class="text-dark-emphasis">
-            By:
-            <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Rio</a>
-            &
-            <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Kingsley</a>
-          </h3>
-        </div>
-      </div>
-
-      <div class="right-brand col">
-        <img class="float-end logo-sized" src="../assets/images/test.png" alt="brand 2">
+    <div class="mid-section col flex-center">
+      <div class="">
+        <h1 class="text-primary">Electric Scooter Rental</h1>
+        <h3 class="text-dark-emphasis">
+          By:
+          <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Rio</a>
+          &
+          <a class="text-dark-emphasis" href="https://www.example.com" target="_blank">Kingsley</a>
+        </h3>
       </div>
     </div>
+
+    <div class="right-brand col">
+      <img class="float-end logo-sized" src="../assets/images/test.png" alt="brand 2">
+    </div>
+  </div>
 </template>
 
 <script>
@@ -30,7 +30,10 @@ export default {
 
 <style scoped>
 .header {
-  height: 25vw;
+  height: 30em;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0.5em;
 }
 
 div > * {
@@ -45,25 +48,25 @@ div > * {
   justify-items: center;
 
   h1 {
-    font-size: 5vw;
+    font-size: 5em;
   }
 
   h2 {
-    font-size: 4vw;
+    font-size: 4em;
   }
 
   h3 {
-    font-size: 3vw;
+    font-size: 3em;
   }
 
   h4 {
-    font-size: 2vw;
+    font-size: 2em;
   }
 }
 
 .logo-sized {
-  min-width: 75%;
-  width: 75%;
+  min-width: 5rem;
+  width: 30rem;
   align-self: center;
 }
 
