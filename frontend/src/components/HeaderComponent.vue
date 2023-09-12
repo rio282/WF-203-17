@@ -43,6 +43,7 @@ div > * {
   align-items: center;
   justify-content: center;
   justify-items: center;
+}
 
   h1 {
     font-size: 5vw;
@@ -59,7 +60,8 @@ div > * {
   h4 {
     font-size: 2vw;
   }
-}
+
+
 
 .logo-sized {
   min-width: 75%;
@@ -72,4 +74,5 @@ div > * {
   justify-content: center;
   align-items: center;
 }
+
 </style>
